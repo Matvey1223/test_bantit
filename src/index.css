@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .scrollbar-thin::-webkit-scrollbar { @apply w-1; }
+    .scrollbar-thin::-webkit-scrollbar-thumb { @apply bg-gray-400 rounded; }
+}
